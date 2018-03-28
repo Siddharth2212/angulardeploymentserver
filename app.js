@@ -28,7 +28,7 @@ app.use('/users', users);
 */
 
 app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname,'index.html'));
+    res.sendFile('/dist/index.html');
 });
 
 // catch 404 and forward to error handler
